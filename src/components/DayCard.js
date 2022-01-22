@@ -71,7 +71,6 @@ function DayCard({ day }) {
 
   const getDate = date.getDate();
   const getMonth = date.getMonth();
-  const getYear = date.getFullYear();
 
   return (
     <Card className={classes.root} elevation={0} sx={{ flexGrow: 1 }}>
